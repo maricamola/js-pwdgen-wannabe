@@ -14,14 +14,9 @@ const surname = prompt ('Qual è il tuo cognome?')
 
 const color = prompt ('Qual è il tuo colore preferito?')
 
-const age = parseInt (prompt('Quanti anni hai?'))
+console.log(name , surname , color)
 
-console.log(name , surname , color , age)
-
-const outputStr = `
-Ciao ${name} ${surname} , <br>
-Il tuo colore preferito è il ${color} <br>
-E hai ${age} anni !`
+const outputStr = name + surname + color + '23';
 
 console.log(outputStr)
 
